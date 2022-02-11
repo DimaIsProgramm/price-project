@@ -6,6 +6,9 @@
   flex-direction: column;
   margin-left: 18px;
 }
+.price-card:first-child {
+  margin-left: 0;
+}
 
 .card-header {
   width: 100%;
@@ -34,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 65px auto;
 }
 
 .card-header-box {
