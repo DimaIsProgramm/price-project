@@ -1,5 +1,5 @@
 .price-card {
-  min-width: 380px;
+  width: 380px;
   height: 770px;
   background-color: #334247;
   display: flex;
@@ -42,6 +42,10 @@ body {
   height: 64px;
   padding: 33px auto;
   margin: 0;
+  padding: 0;
+}
+
+ul {
   padding: 0;
 }
 
@@ -143,7 +147,7 @@ body {
   background-color: #dc3f45;
   transform: rotate(45deg);
   position: absolute;
-  left: 350px;
+  left: 270px;
   top: 27px;
   z-index: 1;
   text-align: center;

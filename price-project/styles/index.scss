@@ -29,6 +29,10 @@ body {
   padding: 0;
 }
 
+ul {
+  padding: 0;
+}
+
 .price-card {
   &__option-title {
     font-size: 35px;
@@ -144,7 +148,7 @@ body {
   background-color: $color-red;
   transform: rotate(45deg);
   position: absolute;
-  left: 350px;
+  left: 270px;
   top: 27px;
   z-index: 1;
   text-align: center;
