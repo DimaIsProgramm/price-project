@@ -1,5 +1,5 @@
 .price-card {
-  width: 380px;
+  min-width: 380px;
   height: 770px;
   background-color: #334247;
   display: flex;
@@ -97,7 +97,7 @@ body {
   line-height: 18px;
   color: #ffffff;
 }
-.price-card__option_dark {
+.price-card__option:nth-child(odd) {
   background-color: #2a3438;
 }
 .price-card__option-text {
@@ -107,7 +107,7 @@ body {
   padding: 19px 0 18px 22px;
 }
 .price-card__order {
-  padding: 50px 113px 40px 112px;
+  padding: 39px 113px 40px 112px;
 }
 .price-card__order-button {
   color: #ffffff;
@@ -124,6 +124,28 @@ body {
 }
 .price-card__order-button_webshop {
   background-color: #ec632a;
+}
+
+.card_popular {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.popularity {
+  height: 25px;
+  width: 147px;
+  color: #ffffff;
+  background-color: #dc3f45;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -33px;
+  top: 27px;
+  z-index: 1;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 /*# sourceMappingURL=styles.css.map */
