@@ -110,14 +110,16 @@ ul {
   }
 
   &__option-image {
-    padding: 19px 0 18px 22px;
+    width: 15px;
+    height: 13px;
+    padding: 18px 0 19px 22px;
   }
 
   &__order {
     padding: 39px 113px 40px 112px;
   }
 
-  &__order-button {
+  &__order-btn {
     color: $color-white;
     border: none;
     height: 40px;

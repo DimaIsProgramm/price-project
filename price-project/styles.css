@@ -114,25 +114,27 @@ ul {
   padding-left: 22px;
 }
 .price-card__option-image {
-  padding: 19px 0 18px 22px;
+  width: 15px;
+  height: 13px;
+  padding: 18px 0 19px 22px;
 }
 .price-card__order {
   padding: 39px 113px 40px 112px;
 }
-.price-card__order-button {
+.price-card__order-btn {
   color: #ffffff;
   border: none;
   height: 40px;
   border-radius: 20px;
   width: 154.52px;
 }
-.price-card__order-button_basic {
+.price-card__order-btn_basic {
   background-color: #5bb189;
 }
-.price-card__order-button_business {
+.price-card__order-btn_business {
   background-color: #3a6ba5;
 }
-.price-card__order-button_webshop {
+.price-card__order-btn_webshop {
   background-color: #ec632a;
 }
 
