@@ -1,0 +1,129 @@
+@import 'variables.scss';
+@import 'common.scss';
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: $color-black;
+}
+
+.content {
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 115px 132px;
+}
+
+.card-header-box {
+  display: flex;
+  flex-direction: column;
+  height: 64px;
+  padding: 33px auto;
+  margin: 0;
+  padding: 0;
+}
+
+.price-card {
+  &__option-title {
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__price-number {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: center;
+  }
+
+  &__option-subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  &__price-box {
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+
+    &_basic {
+      background-color: $color-green;
+    }
+
+    &_business {
+      background-color: $color-violet;
+    }
+
+    &_webshop {
+      background-color: $color-orange;
+    }
+  }
+
+  &__description {
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $color-white;
+  }
+
+  &__option {
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    line-height: 18px;
+    color: $color-white;
+
+    &_dark {
+      background-color: $color-too-dark;
+    }
+  }
+
+  &__option-text {
+    padding-left: 22px;
+  }
+
+  &__option-image {
+    padding: 19px 0 18px 22px;
+  }
+
+  &__order {
+    padding: 50px 113px 40px 112px;
+  }
+
+  &__order-button {
+    color: $color-white;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    width: 154.52px;
+
+    &_basic {
+      background-color: $color-green;
+    }
+
+    &_business {
+      background-color: $color-violet;
+    }
+
+    &_webshop {
+      background-color: $color-orange;
+    }
+  }
+}
