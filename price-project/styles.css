@@ -87,6 +87,7 @@ body {
   letter-spacing: 0px;
   text-align: center;
   color: #ffffff;
+  margin: auto 26px;
 }
 .price-card__option {
   height: 50px;
