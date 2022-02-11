@@ -7,6 +7,9 @@ html {
 
 body {
   background-color: $color-black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -141,8 +144,8 @@ body {
   background-color: $color-red;
   transform: rotate(45deg);
   position: absolute;
-  right: -35px;
-  top: 22px;
+  right: -33px;
+  top: 21px;
   z-index: 1;
   text-align: center;
   font-weight: 700;
