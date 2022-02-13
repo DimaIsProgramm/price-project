@@ -7,9 +7,6 @@ html {
 
 body {
   background-color: $color-black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .content {
@@ -17,7 +14,6 @@ body {
   max-height: 1000px;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 65px auto;
 }
 
@@ -141,8 +137,9 @@ ul {
 }
 .card_popular {
   position: relative;
-  z-index: 2;
   overflow: hidden;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 .popularity {
