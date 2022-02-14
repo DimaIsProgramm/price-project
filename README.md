@@ -1,7 +1,7 @@
 # price-project# Layout Sample Project
 
-### [Site link]( https://dimaisprogramm.github.io/price-project/
-)
+### [Site link]( https://dimaisprogramm.github.io/price-project/)
+
 
 Layout desktop (up-to-1360) versions
 
