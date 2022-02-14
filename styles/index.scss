@@ -1,0 +1,26 @@
+@import 'variables.scss';
+@import 'price-card.scss';
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: $color-black;
+}
+
+.content {
+  max-width: 1440px;
+  max-height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px auto;
+}
+
+.card_popular {
+  position: relative;
+  overflow: hidden;
+  margin-left: 18px;
+  margin-right: 18px;
+}
