@@ -79,7 +79,7 @@
   height: 13px;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 18px 0 19px 22px;
+  padding: 18px 22px 19px 22px;
 }
 .price-card__option-image_green {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
