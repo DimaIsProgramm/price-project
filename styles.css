@@ -26,6 +26,7 @@
   font-size: 20px;
   line-height: 24px;
   text-align: center;
+  font-weight: normal;
 }
 .price-card__price {
   display: flex;
@@ -78,7 +79,7 @@
   height: 13px;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0 22px 0 19px;
+  padding: 18px 0 19px 22px;
 }
 .price-card__option-image_green {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
@@ -140,13 +141,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 65px auto;
-}
-
-.card_popular {
-  position: relative;
-  overflow: hidden;
-  margin-left: 18px;
-  margin-right: 18px;
 }
 
 /*# sourceMappingURL=styles.css.map */
